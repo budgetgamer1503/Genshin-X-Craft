@@ -1,0 +1,60 @@
+{
+	"format_version": 2,
+	"header": {
+		"name": "Genshin X Craft V-1.9 BP",
+		"description": "Added 2 Star Genshin weapons",
+		"uuid": "15497ac1-96d0-45ad-8443-b937c8483d45",
+		"version": [
+			1,
+			0,
+			0
+		],
+		"min_engine_version": [
+			1,
+			20,
+			0
+		]
+	},
+	"metadata": {
+		"authors": [
+			"master"
+		]
+	},
+	"modules": [
+		{
+			"description": "Behavior",
+			"version": [
+				1,
+				0,
+				0
+			],
+			"uuid": "e4f04b8d-e481-06c5-8796-c9bd51b0e975",
+			"type": "data"
+		},
+		{
+			"type": "script",
+			"language": "javascript",
+			"uuid": "001ba938-9aba-4ba3-adfd-ce87e034d298",
+			"version": [
+				1,
+				0,
+				0
+			],
+			"entry": "scripts/main.js"
+		}
+	],
+	"dependencies": [
+		{
+			"uuid": "2e5fa7bc-b5fa-4bf7-a3a2-6567d06b001b",
+			"version": [
+				1,
+				0,
+				0
+			]
+		},
+		{
+			"module_name": "@minecraft/server",
+			"version": "1.9.0"
+		}
+	]
+}

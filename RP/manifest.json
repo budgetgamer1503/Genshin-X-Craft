@@ -1,0 +1,45 @@
+{
+	"format_version": 2,
+	"header": {
+		"name": "Genshin X Craft RP V-1.9",
+		"description": "Added 2 Star Genshin weapons",
+		"uuid": "2e5fa7bc-b5fa-4bf7-a3a2-6567d06b001b",
+		"version": [
+			1,
+			0,
+			0
+		],
+		"min_engine_version": [
+			1,
+			16,
+			0
+		]
+	},
+	"metadata": {
+		"authors": [
+			"master"
+		]
+	},
+	"modules": [
+		{
+			"description": "traveller sword ",
+			"type": "resources",
+			"uuid": "7598765f-5304-9dca-98b2-143e63395ad0",
+			"version": [
+				1,
+				0,
+				0
+			]
+		}
+	],
+	"dependencies": [
+		{
+			"uuid": "15497ac1-96d0-45ad-8443-b937c8483d45",
+			"version": [
+				1,
+				0,
+				0
+			]
+		}
+	]
+}

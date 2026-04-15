@@ -1,0 +1,44 @@
+{
+    "type": "minecraftBedrock",
+    "name": "Genshin X Craft",
+    "namespace": "gi",
+    "authors": [
+        "BUDGETGAMER1503"
+    ],
+    "targetVersion": "1.21.120",
+    "description": "Scripted by BudgetGamer1503",
+    "experimentalGameplay": {
+        "upcomingCreatorFeatures": true,
+        "experimentalCreatorCameraFeatures": false,
+        "enableGameTestFramework": true,
+        "renderDragonFeatures": false,
+        "educationEdition": false
+    },
+    "bdsProject": true,
+    "packs": {
+        "behaviorPack": "./BP",
+        "resourcePack": "./RP"
+    },
+    "worlds": [
+        "./worlds/*"
+    ],
+    "compiler": {
+        "plugins": [
+            "generatorScripts",
+            "typeScript",
+            "entityIdentifierAlias",
+            "customEntityComponents",
+            "customItemComponents",
+            "customBlockComponents",
+            "customCommands",
+            "moLang",
+            "formatVersionCorrection",
+            [
+                "simpleRewrite",
+                {
+                    "packName": "Genshin X Craft"
+                }
+            ]
+        ]
+    }
+}
