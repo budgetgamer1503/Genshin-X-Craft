@@ -1,4 +1,4 @@
-<p style="text-align:center">![](https://media.forgecdn.net/attachments/description/1385396/description_5c0d96ba-e866-4837-98e7-886b9f802213.png)</p> 
+![title](https://media.forgecdn.net/attachments/description/1385396/description_5c0d96ba-e866-4837-98e7-886b9f802213.png)</p> 
 
 ## **A Bedrock addon that brings the feeling of Genshin impact to Minecraft** 
 
